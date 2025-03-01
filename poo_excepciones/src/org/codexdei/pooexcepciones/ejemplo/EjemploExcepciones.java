@@ -1,5 +1,8 @@
 package org.codexdei.pooexcepciones.ejemplo;
 
+import org.codexdei.pooexcepciones.ejemplo.exceptions.DivisionPorZeroExcepcion;
+import org.codexdei.pooexcepciones.ejemplo.exceptions.FormatoNumException;
+
 import javax.swing.*;
 
 public class EjemploExcepciones {

@@ -1,8 +1,11 @@
 package org.codexdei.pooexcepciones.ejemplo;
 
+import org.codexdei.pooexcepciones.ejemplo.exceptions.DivisionPorZeroExcepcion;
+import org.codexdei.pooexcepciones.ejemplo.exceptions.FormatoNumException;
+
 public class Calculadora {
 
-    public double dividir(int dividendo, int divisor) throws DivisionPorZeroExcepcion{
+    public double dividir(int dividendo, int divisor) throws DivisionPorZeroExcepcion {
 
         if (divisor == 0){
 
@@ -12,7 +15,7 @@ public class Calculadora {
     }
 
     public double dividir(String dividendo, String divisor) throws
-                                DivisionPorZeroExcepcion, FormatoNumException{
+                                DivisionPorZeroExcepcion, FormatoNumException {
 
         try{
 

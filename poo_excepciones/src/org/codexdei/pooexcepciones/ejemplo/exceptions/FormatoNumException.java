@@ -1,4 +1,4 @@
-package org.codexdei.pooexcepciones.ejemplo;
+package org.codexdei.pooexcepciones.ejemplo.exceptions;
 
 public class FormatoNumException extends Exception{
 
